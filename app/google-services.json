@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "174920032815",
+    "firebase_url": "https://digitecproject.firebaseio.com",
+    "project_id": "digitecproject",
+    "storage_bucket": "digitecproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174920032815:android:9a89a2036e74a5aa",
+        "android_client_info": {
+          "package_name": "digitec.arsen.digitecproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174920032815-s2sal1jlrlhcjn30b6ugd6ha2t8fm5fq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "digitec.arsen.digitecproject",
+            "certificate_hash": "b21844072da1e47d9f482c88914c5449f0a2cb8e"
+          }
+        },
+        {
+          "client_id": "174920032815-snl0deb6ogg2enarkb37ghid6cb880fb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIl8OMBr3YxF6fFAbyRXUspOlpgwCxAzA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174920032815-snl0deb6ogg2enarkb37ghid6cb880fb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

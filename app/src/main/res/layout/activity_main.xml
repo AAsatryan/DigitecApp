@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_layout"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/filesRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+    <ImageButton
+        android:id="@+id/getFilesButton"
+        android:layout_width="@dimen/fab_button_size"
+        android:layout_height="@dimen/fab_button_size"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/margin_big"
+        android:layout_marginLeft="@dimen/margin_big"
+        android:layout_marginBottom="@dimen/margin_middle"
+        android:background="@drawable/fab"
+        android:src="@drawable/download" />
+
+    <ImageButton
+        android:id="@+id/uploadFilesButton"
+        android:layout_width="@dimen/fab_button_size"
+        android:layout_height="@dimen/fab_button_size"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/margin_big"
+        android:layout_marginRight="@dimen/margin_big"
+        android:layout_marginBottom="@dimen/margin_middle"
+        android:background="@drawable/fab"
+        android:src="@drawable/upload" />
+
+</RelativeLayout>

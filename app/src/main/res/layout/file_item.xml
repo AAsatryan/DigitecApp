@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/card_view_height"
+    android:layout_marginStart="@dimen/margin_middle_x"
+    android:layout_marginTop="@dimen/margin_big"
+    android:layout_marginEnd="@dimen/margin_middle_x"
+    android:layout_marginRight="@dimen/margin_middle_x"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="21dp">
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/fab_button_size"
+        android:layout_gravity="start"
+        android:scaleType="centerCrop"
+        android:layout_height="match_parent"
+        android:src="@color/colorAccent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/card_view_height"
+        android:layout_marginLeft="@dimen/card_view_height"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/myFileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="@color/secondaryColor"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/myFileSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/secondaryColor" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/remove"
+        android:src="@drawable/remove"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="end|center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</androidx.cardview.widget.CardView>
